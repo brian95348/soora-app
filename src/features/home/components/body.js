@@ -16,7 +16,7 @@ const Block1 = () => {
                         <Line />
                         <Text variant='captionHeader' > Coming Soon</Text>
                     </RowCentered>
-                    <Text variant='heading' >Bringing Muslims Together</Text>
+                    <Text variant='heading' >Bringing {"\n"} Muslims Together</Text>
                 </TextContainer>
                 <LinksContainer>
                 <Image source={require('../../../../assets/google-play.png')} style={styles.links} />
@@ -49,7 +49,7 @@ const Block2 = () => {
                         <Line />
                         <Text variant='captionHeader' > Coming Soon</Text>
                     </RowCentered>
-                    <Text variant='heading' >Get Notified When we launch</Text>
+                    <Text variant='heading' >Get Notified {"\n"} When we launch</Text>
                     <InputContainer>
                         <TextInput value={email} onChangeText={(email) => setEmail(email)} />
                         <Pressable onPress={addEmail}>

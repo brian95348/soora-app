@@ -1,6 +1,6 @@
 # soora-app
 
-Download the Expo Go app that supports Expo SDK 41,42,43,44
+Download the Expo Go app that supports Expo SDK 44
 download the repo code
 run npm install
 run npm start
